@@ -24,7 +24,7 @@ class triangle extends shape
 Scanner s=new Scanner(System.in);
 void printArea()
 {
-System.out.println("Enter height and base of rectangle");
+System.out.println("Enter height and base of triangle");
 h=s.nextInt();
 b=s.nextInt();
 System.out.println("Area of Trianle is "+0.5*b*h);
@@ -45,7 +45,7 @@ circle(){}
 }
 
 
-class main
+class Main
 {
 public static void main(String xx[])
 {
