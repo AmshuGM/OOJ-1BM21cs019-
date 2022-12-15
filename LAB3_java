@@ -45,6 +45,7 @@ class lab_3 {
     Book b1[]=new Book[n];
     for(int i=0;i<n;i++){
     b1[i]=new Book();
+    String skpil=s.nextLine();
     System.out.print("eneter the name of the book: ");
     String name=s.nextLine();
     System.out.print("eneter the author's name: ");
