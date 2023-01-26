@@ -1,5 +1,4 @@
-import java.lang.*;
-import java.util.*;
+
 
 class Gen<T, V> {
 
@@ -29,7 +28,7 @@ class generics {
 
   public static void main(String args[]) {
     Gen<Integer, String> wob;
-    wob = new Gen<Integer, String>(001, "Nithin");
+    wob = new Gen<Integer, String>(001, "Amshu");
     int x = wob.getob1();
     System.out.println("The value for x =" + x);
     String y = wob.getob2(); 
